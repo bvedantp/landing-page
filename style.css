@@ -163,3 +163,47 @@ h1 {
     align-self: flex-end;
     padding-right: 25px;
 }
+
+.call-action {
+    height: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 900px;
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px 13px;
+    border-radius: 9px;
+}
+
+.textarea {
+    margin: 13px;
+    color: #f9faf8;
+}
+
+.textarea p {
+    font-size: 17px;
+}
+
+.card button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    padding: 5px 28px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 24px;
+    color: #d8dbdf;
+    font-size: 15px;
+}
